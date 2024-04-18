@@ -1,0 +1,65 @@
+
+.camera-view img{
+  max-width: 400px;
+  height: 300px;
+}
+.camera-view video{
+  max-width: 400px;
+  height: 300px;
+}
+
+.gallery{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.image-container{
+  width: 32%;
+}
+.image-container img{
+  width: 100%;
+  border-radius: 20px;
+}
+.image-container button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: red;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+
+}
+.camera{
+  text-align: center;
+}
+.camera video{
+  max-width: 500px;
+  margin: auto;
+  border-radius: 20px;
+}
+.camera  button{
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+
+  border-radius: 10px;
+  background: green;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.camera  select{
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
